@@ -11,34 +11,36 @@
     <title>Đăng nhập hệ thống</title>
 </head>
 <body>
-    <h1>Đăng nhập hệ thống</h1>
-    <form action="" method="get">
-        <!-- <div> -->
-            <!-- <img widht="90%" src="C:\Users\Admin\Pictures" alt="Ảnh"></a> -->
-        <!-- </div> -->
-        <div>
-            <label class ="form-label" id="lb1" for="tenDangNhap">Tên đăng nhập</label>
-            <input class="form-control" placeholder="Email/SĐT/Mã sinh viên" required type="text" name="tenDangNhap" id="tenDangNhap">
-        </div>
-        
-        <div>
-            <label class="form-label" id="lb2" for="matKhau">Mật khẩu</label>
-            <input class="form-control" placeholder="Mật khẩu" required type="password" name="matKhau" id="matKhau">
-        </div>
+    <div class="m-5 border border-success p-5 rounded-5 border-5 bg-light">
+        <h1 style="text-align: center;">Đăng nhập hệ thống</h1>
+        <form action="" method="get">
+            <!-- <div> -->
+                <!-- <img widht="90%" src="C:\Users\Admin\Pictures" alt="Ảnh"></a> -->
+            <!-- </div> -->
+            <div>
+                <label class ="form-label" id="lb1" for="tenDangNhap">Tên đăng nhập</label>
+                <input class="form-control" placeholder="Email/SĐT/Mã sinh viên" required type="text" name="tenDangNhap" id="tenDangNhap">
+            </div>
+            
+            <div>
+                <label class="form-label" id="lb2" for="matKhau">Mật khẩu</label>
+                <input class="form-control" placeholder="Mật khẩu" required type="password" name="matKhau" id="matKhau">
+            </div>
 
-        <div class="form-text">
-            <a id ="lb3" href="#">Quên mật khẩu</a>
-        </div>
+            <div class="form-text">
+                <a id ="lb3" href="#">Quên mật khẩu</a>
+            </div>
 
-        <div>
-            <label class="form-label" id="lb4" for="nhoMatKhau">Nhớ mật khẩu</label>
-            <input class="form-check-input" type="checkbox" name="nhoMatKhau" id="nhoMatKhau">
-        </div>
+            <div>
+                <label class="form-label" id="lb4" for="nhoMatKhau">Nhớ mật khẩu</label>
+                <input class="form-check-input" type="checkbox" name="nhoMatKhau" id="nhoMatKhau">
+            </div>
 
-        <div>
-            <button class="btn btn-success" id="lb5" type="submit">Đăng nhập</button>
-            <button class="btn btn-outline-danger" id="lb6" type="reset">Nhập lại</button>
-        </div>
-    </form>
+            <div class="d-flex justify-content-end">
+                <button class="btn btn-success me-2" id="lb5" type="submit">Đăng nhập</button>
+                <button class="btn btn-outline-danger" id="lb6" type="reset">Nhập lại</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
